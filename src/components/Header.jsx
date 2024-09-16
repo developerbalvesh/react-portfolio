@@ -40,8 +40,8 @@ const Header = () => {
   return (
     <>
       <header id="header" className="sticky-top">
-        <div className="container-fluid">
-          <div className="d-flex justify-content-around align-items-center">
+        <div className="container">
+          <div className="d-flex justify-content-between align-items-center">
             <div className="logo align-self-center">
               <h1>
                 <Link to='/'><span>Devops</span>Balvesh</Link>

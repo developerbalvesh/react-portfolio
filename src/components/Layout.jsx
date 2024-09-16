@@ -7,8 +7,16 @@ const Layout = ({
   children,
   title = "Balvesh | Portfolio",
   description = "Balvesh Puramkar is a MERN Stack Developer, he is good at developing and maintaining web projects.",
-  keywords=["MERN Stack Developer","Balvesh Puramkar","Freelancer","Balvesh","Puramkar","Balwesh","Balwesh puramkar"],
-  author="Balvesh Puramkar",
+  keywords = [
+    "MERN Stack Developer",
+    "Balvesh Puramkar",
+    "Freelancer",
+    "Balvesh",
+    "Puramkar",
+    "Balwesh",
+    "Balwesh puramkar",
+  ],
+  author = "Balvesh Puramkar",
 }) => {
   return (
     <>
@@ -20,9 +28,7 @@ const Layout = ({
         <title>{title}</title>
       </Helmet>
       <Header />
-      <div className="animate__animated animate__slideInDown">
-    {children}
-      </div>
+      <div className="animate__animated animate__slideInDown">{children}</div>
       <Footer />
     </>
   );
