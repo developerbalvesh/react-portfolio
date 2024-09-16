@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   const [bar, setBar] = useState(false);
   useEffect(() => {
+    setBar(false);
     let bar = document.getElementById("bar");
     let header = document.getElementById("header");
     window.addEventListener("scroll", () => {
@@ -42,7 +44,7 @@ const Header = () => {
           <div className="d-flex justify-content-around align-items-center">
             <div className="logo align-self-center">
               <h1>
-                <span>Devops</span>Balvesh
+                <Link to='/'><span>Devops</span>Balvesh</Link>
               </h1>
             </div>
             <div className="menu">
@@ -66,24 +68,24 @@ const Header = () => {
         <nav className="">
           <ul className="menu-items p-5 d-flex text-center flex-column gap-4">
             <li>
-              <a className="active" href="/">
+              <NavLink className="active" to="/" onClick={()=>setBar(false)}>
                 Home
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="/about">About</a>
+              <NavLink to="/about" onClick={()=>setBar(false)}>About</NavLink>
             </li>
             <li>
-              <a href="/projects">Projects</a>
+              <NavLink to="/projects" onClick={()=>setBar(false)}>Projects</NavLink>
             </li>
             <li>
-              <a href="/skills">Skills</a>
+              <NavLink to="/skills" onClick={()=>setBar(false)}>Skills</NavLink>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <NavLink to="/contact" onClick={()=>setBar(false)}>Contact</NavLink>
             </li>
             <li>
-              <a href="/next">What's Next?</a>
+              <NavLink to="/next" onClick={()=>setBar(false)}>What's Next?</NavLink>
             </li>
           </ul>
         </nav>
