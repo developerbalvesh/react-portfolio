@@ -68,7 +68,7 @@ const Header = () => {
         <nav className="">
           <ul className="menu-items p-5 d-flex text-center flex-column gap-4">
             <li>
-              <NavLink className="active" to="/" onClick={()=>setBar(false)}>
+              <NavLink to="/" onClick={()=>setBar(false)}>
                 Home
               </NavLink>
             </li>

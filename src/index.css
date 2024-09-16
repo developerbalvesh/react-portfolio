@@ -88,6 +88,7 @@ header {
 
 .menu-body{
   position: fixed;
+  z-index: 1;
   background: linear-gradient(60deg, #00aeff, #00ff00);
   top: unset;
   bottom: 0;
@@ -134,9 +135,6 @@ header {
 
 /* footer */
 footer {
-  .row {
-    /* height: 100%; */
-  }
   h1 {
     font-size: 4rem;
   }
@@ -170,5 +168,48 @@ footer {
       width: 100%;
       height: 5px;
     }
+  }
+}
+
+/* page not found */
+.page-not-found{
+  min-height: calc(100vh - 54.3px);
+
+  img{
+    border-radius: 50%;
+    box-shadow: 0 0 100px #fff;
+    animation: 5s infinite box-shadow-img;
+    pointer-events: none;
+  }
+
+  button{
+    border: none;
+    background-color: #070605;
+    color: #f1f1f1;
+    font-size: 1.4rem;
+    border: 1px solid #f1f1f1;
+    /* outline: #00ff00 1px solid; */
+    /* box-shadow: 0 0 5px #f1f1f1; */
+    border-radius: 5px;
+    transition: 200ms;
+    padding: 5px;
+  }
+
+  button:hover{
+    padding: 5px 10px;
+    background-color: #f1f1f1;
+    color: #070605;
+  }
+}
+
+@keyframes box-shadow-img{
+  0%{
+    box-shadow: 0 0 100px #fff;
+  }
+  50%{
+    box-shadow: 0 0 0px #00ff00;
+  }
+  100%{
+    box-shadow: 0 0 100px #fff;
   }
 }

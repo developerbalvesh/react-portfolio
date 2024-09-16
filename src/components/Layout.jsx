@@ -20,7 +20,9 @@ const Layout = ({
         <title>{title}</title>
       </Helmet>
       <Header />
-      {children}
+      <div className="animate__animated animate__slideInDown">
+    {children}
+      </div>
       <Footer />
     </>
   );
