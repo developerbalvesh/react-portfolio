@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #070605;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+/* Header */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-top: 5px;
+    span {
+      color: #070605;
+      text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff,
+        1px -1px 0 #fff;
+    }
+  }
+}
+
+header {
+  top: 0;
+  background-color: #070605;
+
+  .menu {
+
+    .bar {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 35px;
+      width: 35px;
+      cursor: pointer;
+      align-items: end;
+      position: relative;
+
+      .bar-1, .bar-2, .bar-3 {
+        height: 2px;
+        background-color: #f1f1f1;
+        border-radius: 50px;
+        transition: 200ms;
+      }
+
+      .bar-1{
+        width: 100%;
+      }
+
+      .bar-2{
+        width: 70%;
+      }
+      .bar-3{
+        width: 50%;
+      }
+
+      .deg-45{
+        position: absolute;
+        transform: rotate(45deg) ;
+        height: 6px;
+        background: linear-gradient(90deg, #00aeff, #00ff00);
+      }
+
+      .deg--45{
+        position: absolute;
+        transform: rotate(-45deg);
+        width: 100%;
+      }
+    }
+  }
+}
+
+.menu-body{
+  position: fixed;
+  background: linear-gradient(60deg, #00aeff, #00ff00);
+  top: unset;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: calc(100vh - 51.4px);
+  font-size: 1.5rem;
+  a{
+    color: #070605;
+    font-weight: 500;
+  }
+  a:hover{
+    transition: 200ms;
+    background: #070605;
+    width: 100%;
+    padding: 10px;
+    color: #f1f1f1;
+    box-shadow: 0 0 4px #070605;
+  }
+}
+
+.d-none{
+  display: none;
+}
+
+
+
+.loading {
+  height: 2px;
+  background: linear-gradient(90deg, #00ff00, #00aeff);
+  position: sticky;
+  top: 51.4px;
+  z-index: 0;
+}
+
+/* footer */
+footer {
+  .row {
+    /* height: 100%; */
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  h6 {
+    color: #9c9c9c;
+  }
+  ul {
+    margin-bottom: 10px;
+    li {
+      line-height: 30px;
+    }
+  }
+  .line {
+    width: 6px;
+    height: 30vh;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00aeff, #00ff00);
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    .d-flex {
+      flex-wrap: wrap;
+    }
+    .line {
+      width: 100%;
+      height: 5px;
+    }
+  }
+}
