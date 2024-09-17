@@ -7,7 +7,7 @@ const Home = () => {
     window.scrollTo(0, 0)
   },[])
   return (
-    <Layout>
+    <Layout title="Balvesh | Portfolio Website">
       <div className="container">
         <div className="grid-container">
           <div className="box box-1">

@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import { Route, Routes } from 'react-router-dom'
 import { PageNotFound } from './pages/PageNotFound'
 import About from './pages/About'
+import Projects from './pages/Projects'
 
 const App =()=> {
 
@@ -15,6 +16,7 @@ const App =()=> {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/projects' element={<Projects />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
     </>

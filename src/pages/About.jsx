@@ -1,17 +1,18 @@
 import React, { useEffect } from "react";
 import Layout from "../components/Layout";
+import NextBtn from "../components/NextBtn";
 
 const About = () => {
-//   useEffect(() => {
-//     window.scrollTo(0, 0);
-//   }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <Layout>
+    <Layout title="Balvesh | About Page">
       <div className="container pt-3 pb-5 about border-bottom border-secondary">
         <div className="row">
           <div className="col-md-8">
             <div className="d-flex flex-column justify-content-evenly h-100 ">
-              <h3 className="p-0 m-0 text-white-50 text-uppercase fs-4">Who am i</h3>
+              <h3 className="p-0 m-0 text-secondary text-uppercase fs-4">Who am i</h3>
               <img
                 className="rounded-circle"
                 src="/portfolio-img/664c6309558cc5ddb6b4f6a9744894aa.png"
@@ -50,15 +51,15 @@ const About = () => {
                         <div>
                             <h4>Education</h4>
                             <ul>
-                                <li><i class="fa-solid fa-award"></i> Bachelor of Engineering from NIT Collage of Engineering in CSE</li>
-                                <li><i class="fa-solid fa-award"></i> Diploma in Computer Science</li>
+                                <li><i className="fa-solid fa-award"></i> Bachelor of Engineering from NIT Collage of Engineering in CSE</li>
+                                <li><i className="fa-solid fa-award"></i> Diploma in Computer Science</li>
                             </ul>
                         </div>
                         <div>
                             <h4>Work Experience</h4>
                             <ul>
-                                <li><i class="fa-solid fa-briefcase"></i> Web Developer Intern for 6 months in PSK Technologies, Pvt.Ltd.</li>
-                                <li><i class="fa-solid fa-briefcase"></i> System Analyst for 3 Years in JD Collage of Engineering & Management</li>
+                                <li><i className="fa-solid fa-briefcase"></i> Web Developer Intern for 6 months in PSK Technologies, Pvt.Ltd.</li>
+                                <li><i className="fa-solid fa-briefcase"></i> System Analyst for 3 Years in JD Collage of Engineering & Management</li>
                             </ul>
                         </div>
                     </div>
@@ -67,7 +68,7 @@ const About = () => {
                         <div>
                             <h4>Group Shows</h4>
                             <ul>
-                                <li><i class="fa-solid fa-trophy"></i> Won a Project Competition During B.E. </li>
+                                <li><i className="fa-solid fa-trophy"></i> Won a Project Competition During B.E. </li>
                             </ul>
                         </div>
                     </div>
@@ -75,6 +76,7 @@ const About = () => {
             </div>
         </div>
       </div>
+      <NextBtn next="Projects" headTo="/projects"  />
     </Layout>
   );
 };

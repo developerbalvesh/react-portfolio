@@ -16,16 +16,36 @@ const Footer = () => {
               <h6>Social Media</h6>
               <ul>
                 <li>
-                  <a href=""><i className="fa-brands fa-linkedin"></i> LinkedIn</a>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/balvesh/"
+                  >
+                    <i className="fa-brands fa-linkedin"></i> LinkedIn
+                  </a>
                 </li>
                 <li>
-                  <a href=""><i className="fa-brands fa-github"></i> Github</a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/developerbalvesh/"
+                  >
+                    <i className="fa-brands fa-github"></i> Github
+                  </a>
                 </li>
                 <li>
-                  <a href=""><i className="fa-brands fa-instagram"></i> Instagram</a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/balveshpuram/"
+                  >
+                    <i className="fa-brands fa-instagram"></i> Instagram
+                  </a>
                 </li>
                 <li>
-                  <a href=""><i className="fa-brands fa-facebook"></i> Facebook</a>
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/balwesh.puram/"
+                  >
+                    <i className="fa-brands fa-facebook"></i> Facebook
+                  </a>
                 </li>
               </ul>
             </div>
@@ -33,26 +53,38 @@ const Footer = () => {
               <h6>Address</h6>
               <ul>
                 <li>
-                  <a href="">Nagpur - 440023, Maharashtra, India</a>
+                  <a
+                    target="_blank"
+                    href="https://maps.app.goo.gl/pinbZkJsUbMG7pLH7"
+                  >
+                    Nagpur - 440023, Maharashtra, India
+                  </a>
                 </li>
               </ul>
               <h6>Phone</h6>
               <ul>
                 <li>
-                  <a href="">+91 82089 40419</a>
+                  <a target="_blank" href="tel: +918208940419">
+                    +91 82089 40419
+                  </a>
                 </li>
               </ul>
               <h6>Email</h6>
               <ul>
                 <li>
-                  <a href="">developer.balvesh@gmail.com</a>
+                  <a target="_blank" href="mailto: developer.balvesh@gmail.com">
+                    developer.balvesh@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
         <div className="container-fluid">
-        <p className="text-center">This website is developed & maintained by <strong>Balvesh Puramkar</strong></p>
+          <p className="text-center">
+            This website is developed & maintained by{" "}
+            <strong>Balvesh Puramkar</strong>
+          </p>
         </div>
       </footer>
     </>

@@ -6,7 +6,7 @@ const NextBtn = ({ next = "Next", headTo = "/" }) => {
     <Link to={headTo}>
       <div className="next-btn d-flex flex-column justify-content-center align-items-center">
         <h2>Head to <span>{next}</span> page</h2>
-        <h3><i class="fa-solid fa-circle-chevron-right"></i></h3>
+        <h3><i className="fa-solid fa-circle-chevron-right"></i></h3>
       </div>
     </Link>
   );
