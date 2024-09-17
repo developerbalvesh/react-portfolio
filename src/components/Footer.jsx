@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="container-fluid">
-        <p>This website is developed & maintained by Balvesh Puramkar</p>
+        <p className="text-center">This website is developed & maintained by <strong>Balvesh Puramkar</strong></p>
         </div>
       </footer>
     </>
