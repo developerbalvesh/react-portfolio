@@ -1,13 +1,14 @@
 import React from "react";
 
 const Project = ({
-  index = 0,
+  index = "00",
   image = "",
   alt = "balvesh project",
   title = "Project-1",
   desc = "lorem.....",
   features = ["feature 1", "feature 2"],
-  link="/"
+  link="/",
+  createdAt="00/00/0000"
 }) => {
   return (
     <>
@@ -18,6 +19,11 @@ const Project = ({
             <div className="box-2"></div>
             <div className="box-3"></div>
             <h2>{index}</h2>
+
+            <div className="box-4"></div>
+            <div className="box-5"></div>
+            <div className="box-6"></div>
+            <h5>{createdAt}</h5>
             <img src={image} alt={alt} />
           </div>
         </div>

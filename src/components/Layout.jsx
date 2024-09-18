@@ -14,7 +14,7 @@ const Layout = ({
     "Balvesh",
     "Puramkar", 
     "Balwesh",
-    "Balwesh puramkar",
+    "Balwesh puramkar"
   ],
   author = "Balvesh Puramkar",
 }) => {
@@ -28,7 +28,7 @@ const Layout = ({
         <title>{title}</title>
       </Helmet>
       <Header />
-      <div className="animate__animated animate__slideInDown layout">{children}</div>
+      <div className="animate__animated animate__jackInTheBox layout">{children}</div>
       <Footer />
     </>
   );
