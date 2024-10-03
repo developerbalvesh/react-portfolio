@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <>
       <footer>
-        <div className="container pt-5 pb-5">
+        <div id="contact" className="container pt-5 pb-5">
           <div className="row align-items-center">
             <div className="col-md-4">
               <div className="d-flex align-items-center">
@@ -83,7 +84,7 @@ const Footer = () => {
         <div className="container-fluid">
           <p className="text-center">
             This website is developed & maintained by{" "}
-            <strong>Balvesh Puramkar</strong>
+            <strong><Link to={'https://www.devopsbalvesh.in'}>Balvesh Puramkar</Link></strong>
           </p>
         </div>
       </footer>

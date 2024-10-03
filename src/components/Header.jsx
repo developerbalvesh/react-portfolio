@@ -82,7 +82,7 @@ const Header = () => {
               <NavLink to="/skills" onClick={()=>setBar(false)}>Skills</NavLink>
             </li>
             <li>
-              <NavLink to="/contact" onClick={()=>setBar(false)}>Contact</NavLink>
+              <a href="#contact" onClick={()=>setBar(false)}>Contact</a>
             </li>
             <li>
               <NavLink to="/next" onClick={()=>setBar(false)}>What's Next?</NavLink>

@@ -149,6 +149,23 @@ header {
 }
 
 /* footer */
+
+
+@keyframes contact-anime {
+  0%{
+    background-color: #00aeff;
+    color: #070605;
+  }
+  50%{
+    background-color: #00ff00;
+    color: #070605;
+  }
+  100%{
+    background-color: #00aeff;
+    color: #070605;
+  }
+}
+
 footer {
   h1 {
     font-size: 4rem;

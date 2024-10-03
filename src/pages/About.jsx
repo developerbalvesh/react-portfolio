@@ -1,11 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Layout from "../components/Layout";
 import NextBtn from "../components/NextBtn";
 
 const About = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
   return (
     <Layout title="Balvesh | About Page">
       <div className="container pt-3 pb-5 about border-bottom border-secondary">

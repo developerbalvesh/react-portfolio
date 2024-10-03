@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import Layout from "../components/Layout";
 import Skill from "../components/Skill";
+import NextBtn from "../components/NextBtn";
 
 const Skills = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+
   return (
     <Layout title="Balvesh | Skills">
       <div className="skills container pt-3 pb-3">
@@ -49,6 +48,7 @@ const Skills = () => {
           ]}
         />
       </div>
+      <NextBtn next="Next" headTo="/next" />
     </Layout>
   );
 };

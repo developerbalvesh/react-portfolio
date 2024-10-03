@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const Project = ({
   index = "00",
@@ -10,6 +10,7 @@ const Project = ({
   link="/",
   createdAt="00/00/0000"
 }) => {
+
   return (
     <>
       <div className="row pt-3 pb-3 border-bottom">
@@ -35,7 +36,7 @@ const Project = ({
             <p className="text-secondary fs-4">{desc}</p>
             <div className="d-flex gap-2 flex-wrap">
               {features.map((t, i) => (
-                <span>{t}</span>
+                <span key={i}>{t}</span>
               ))}
             </div>
           </div>
