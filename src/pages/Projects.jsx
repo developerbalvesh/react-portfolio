@@ -17,6 +17,26 @@ const Projects = () => {
 
         <Project
           index={"01"}
+          image="/projects/oes.png"
+          alt="Online Examination system project by balvesh"
+          title="Online Examination System | Examination project"
+          desc="Online examination system is examination based application in that you can generate exams, generate reports, and more.."
+          features={[
+            "Node Js",
+            "React Js",
+            "Express Js",
+            "MongoDB",
+            "Report generation",
+            "Countdown",
+            "Authentication",
+            "Full Stack",
+          ]}
+          createdAt="03/10/2024"
+          link="https://oesbalvesh.onrender.com/"
+        />
+
+        <Project
+          index={"02"}
           image="/projects/eef5e6a97f9bbc6a9a5d4d0f7bd26a5d.png"
           alt="ecommerce eshopee project by balvesh"
           title="EShopee | Ecommerce project"
@@ -35,8 +55,10 @@ const Projects = () => {
           link="https://eshopee.onrender.com/"
         />
 
+
+
         <Project
-          index={"02"}
+          index={"03"}
           image="/projects/taskapp.png"
           alt="Taskapp project by balvesh"
           title="TaskApp | Fullstack web app"
