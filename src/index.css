@@ -12,7 +12,7 @@ body {
 }
 
 img{
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 a {

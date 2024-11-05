@@ -13,7 +13,7 @@ const About = () => {
               <img
                 className="rounded-circle"
                 src="/portfolio-img/664c6309558cc5ddb6b4f6a9744894aa.png"
-                alt=""
+                alt="Balvesh Puramkar"
               />
               <h2 className="p-0 m-0 text-uppercase fs-3">Web development is my passion.</h2>
               <h2 className="p-0 m-0 text-uppercase fs-3">
@@ -31,7 +31,7 @@ const About = () => {
             <img
               src="/portfolio-img/c258e5843d3a4419276fbd36e7736733.png"
               width="100%"
-              alt=""
+              alt="Balvesh Puramkar"
             />
           </div>
         </div>
@@ -39,7 +39,7 @@ const About = () => {
       <div className="container pt-5 p-b5 background">
         <div className="row">
             <div className="col-md-5">
-                <img className="w-100 object-fit-cover" src="/portfolio-img/7462bc0b07159bc9589cbe4ae102889c.png" alt="" />
+                <img className="w-100 object-fit-cover" src="/portfolio-img/7462bc0b07159bc9589cbe4ae102889c.png" alt="Balvesh Puramkar" />
             </div>
             <div className="col-md-7">
                 <div className="d-flex flex-column justify-content-evenly h-100 gap-4">

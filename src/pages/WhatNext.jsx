@@ -18,7 +18,7 @@ const WhatNext = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <img className="w-100" src="/portfolio-img/2b6ca21c3ddf03a197336fbbaee271d4.png" alt="" />
+            <img className="w-100" src="/portfolio-img/2b6ca21c3ddf03a197336fbbaee271d4.png" alt="Balvesh Puramkar" />
           </div>
         </div>
       </div>

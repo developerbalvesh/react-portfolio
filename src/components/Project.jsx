@@ -25,7 +25,7 @@ const Project = ({
             <div className="box-5"></div>
             <div className="box-6"></div>
             <h5>{createdAt}</h5>
-            <img src={image} alt={alt} />
+            <img src={image} alt={`${alt} Balvesh Puramkar`} />
           </div>
         </div>
         <div className="col-md-6">

@@ -24,7 +24,7 @@ const Skill = ({
                   <div className="p-1 mt-3 bg-secondary rounded-3 d-flex align-items-center text-center justify-content-around">
                     <h6 className="fs-4 p-1 m-0">{s.name}</h6>
                     <div className="line m-1"></div>
-                    <img className="rounded-3 m-1" src={s.img} alt="" />
+                    <img className="rounded-3 m-1" src={s.img} alt="Balvesh Puramkar" />
                   </div>
                 </div>
               </>
